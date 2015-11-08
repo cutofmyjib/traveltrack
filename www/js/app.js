@@ -20,9 +20,6 @@ angular.module('traveltrack', ['ionic'])
 
 
 
-.controller('AdventuresCtrl', function($scope) {
-    
 
-})
 
 

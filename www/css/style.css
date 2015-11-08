@@ -1,4 +1,108 @@
 /* Empty. Add your own CSS if you like */
 .title {
-    background-color:green;
+    background-color:#bc0109;
+}
+ .pane {
+        background: url(../img/backgroundimagered.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: 100% 100%;
+        width: 100%;
+        height: auto;
+    }
+.loginform {
+    color: aqua;
+    padding-top: 80px;
+}
+.loginbutton {
+    background-color: red;
+}
+.personas {
+    display: flex;
+    flex-direction: column;
+    flex-flow: center;
+}
+.foodies {
+    background: url(../img/foodies.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: 100% 100%;
+        width: 50%;
+        height: 50%;
+        overflow: hidden;
+    
+    }
+.foodies li {
+    display: inline-block;
+}
+
+.foodies h1 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.buttoncontainer {
+    display: block;
+    text-align: center;
+    
+}
+.foodies button {
+    float: center;
+    margin-top: 0px;
+}
+
+.foodies .bottombar {
+    margin-top: 150px;
+    color: white;
+}
+
+.bottombar .followerscount {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.foodies .bottombar .followersavatar {
+    float: right;
+}
+
+.fun {
+    background: url(../img/fun.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: 100% 100%;
+        width: 50%;
+        height: 50%;
+        overflow: hidden;
+    }
+.fun li {
+    display: inline-block;
+}
+
+.fun h1 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.buttoncontainer {
+    display: block;
+    text-align: center;
+    
+}
+.fun button {
+    float: center;
+    margin-top: 0px;
+}
+
+.fun .bottombar {
+    margin-top: 150px;
+    color: white;
+}
+
+.bottombar .followerscount {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.fun .bottombar .followersavatar {
+    float: right;
 }
