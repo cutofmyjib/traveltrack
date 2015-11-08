@@ -1,9 +1,14 @@
 /* Empty. Add your own CSS if you like */
-/* Empty. Add your own CSS if you like */
-.title {
-    text-align: center;
-    background-color:#d71921;
+.bar-stable {
+    background-color: #d71921 !important;
+    margin: 0;
+    padding: 0;
 }
+
+.title h1 {
+    text-align: center;
+}
+
 h1 {
     margin: 0;
 }
@@ -66,13 +71,13 @@ h1 {
     color: white;
     margin-top: 100px;
 }
+
 .buttoncontainer {
     display: block;
     text-align: center;
 
 }
 .foodies button {
-    float: center;
     margin-top: 0px;
 }
 
