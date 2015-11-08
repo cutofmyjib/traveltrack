@@ -1,15 +1,23 @@
 /* Empty. Add your own CSS if you like */
-/* Empty. Add your own CSS if you like */
-.title {
-    text-align: center;
-    background-color:#d71921;
+.bar-stable {
+    background-color: #d71921 !important;
+    margin: 0;
+    padding: 0;
 }
+
+.title h1 {
+    text-align: center;
+}
+<<<<<<< HEAD
 body {
     margin: 0;
 }
 .row {
     padding: 0;
 }
+=======
+
+>>>>>>> edaf48d766a92dfd895230b74f3ec7ebd7345eed
 h1 {
     margin: 0;
 }
@@ -91,10 +99,18 @@ h1 {
     text-align: center;
     color: white;
     margin-top: 100px;
+<<<<<<< HEAD
     font-size: 20px;
+=======
+}
+
+.buttoncontainer {
+    display: block;
+    text-align: center;
+
+>>>>>>> edaf48d766a92dfd895230b74f3ec7ebd7345eed
 }
 .foodies button {
-    float: center;
     margin-top: 0px;
     height: auto;
 }
