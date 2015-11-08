@@ -1,140 +1,62 @@
-/* Empty. Add your own CSS if you like */
+
 .bar-stable {
     background-color: #d71921 !important;
     margin: 0;
     padding: 0;
 }
 
-.title h1 {
-    text-align: center;
-    font-size: 16px;
-    margin: 8px;
-}
-
-h1 {
-    margin: 0;
-}
- .pane {
-        background-image: url(../img/backgroundimagered.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: 100% 100%;
-        width: 100%;
-        height: auto;
-    }
-.loginform {
-    color: aqua;
-    padding-top: 80px;
-}
-.loginbutton {
-    background-color: red;
-}
-.header {
-    background-color: #bc0109;
-    height: 80px;
-}
-
-.headerlogo {
-    background-color: white;
-    width: 30%;
-    height: 100%;
-    text-align: center;
-}
-
-.headerlogo img {
-    margin-top: 15px;
-    height: 50%;
-    width: 50%;
-}
-
-.logoquestion {
-    background-color: red;
-}
-.personas {
+.foodie {
+    background-color: #F9C80E;
+    height: 150px;
     display: flex;
     flex-direction: column;
-    flex-flow: center;
-}
-.foodies {
-    background: url(../img/foodies.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-       height: 50%;
-        width: 50%;
-        overflow: hidden;
-
-    }
-.foodies li {
-    display: inline-block;
-}
-
-.foodies h1 {
-    text-align: center;
-    color: white;
-    margin-top: 100px;
-}
-
-.buttoncontainer {
-    display: block;
-    text-align: center;
-
-}
-.foodies button {
-    margin-top: 0px;
-}
-
-.foodies .bottombar {
-    margin-top: 150px;
-    color: white;
-}
-
-.bottombar .followerscount {
-    padding-left: 20px;
-    text-align: left;
-}
-
-.foodies .bottombar .followersavatar {
-    float: right;
+    align-content: center;
 }
 
 .fun {
-    background: url(../img/fun.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-
-        width: 50%;
-        height: 50%;
-        overflow: hidden;
-    }
-.fun li {
-    display: inline-block;
+    background-color: #FE7F2D;
+    text-align: center;
+    height: 150px;
 }
 
-.fun h1 {
+.family {
+    background-color: #662E9B;
+    text-align: center;
+    height: 150px;
+}
+
+.wellness {
+    background-color: #43BCCD;
+    text-align: center;
+    height: 150px;
+}
+
+.persona-container {
+    text-align: center;
+    height: 50%;
+}
+.persona-container h1 a {
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    line-height: 100px;
+}
+
+.bottom-bar {
+    height: 50%;
+}
+
+.followers-count {
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-weight: 400;
     text-align: center;
     color: white;
-    margin-top: 100px;
-}
-.buttoncontainer {
-    display: block;
-    text-align: center;
-
-}
-.fun button {
-    float: center;
-    margin-top: 0px;
 }
 
-.fun .bottombar {
-    margin-top: 150px;
+.followers-list {
     color: white;
-}
-
-.bottombar .followerscount {
-    padding-left: 20px;
-    text-align: left;
-}
-
-.fun .bottombar .followersavatar {
-    float: right;
+    font-size: 22px;
+    text-align: center;
 }
