@@ -1,5 +1,18 @@
- <ion-view view-title="Home">
-    <ion-content ng-controller="AdventuresCtrl" class="personas">
-      <h1>Hello</h1>
+ <ion-view title="Fun">
+    <ion-content>
+      <div>
+        <h1>Hello</h1>
+      </div>
+      <ion-slide-box on-slide-changed="slideHasChanged($index)">
+      <ion-slide>
+        <div class="box blue"><h1>BLUE</h1></div>
+      </ion-slide>
+      <ion-slide>
+        <div class="box yellow"><h1>YELLOW</h1></div>
+      </ion-slide>
+      <ion-slide>
+        <div class="box pink"><h1>PINK</h1></div>
+      </ion-slide>
+      </ion-slide-box>
     </ion-content>
 </ion-view>

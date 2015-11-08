@@ -1,8 +1,12 @@
+.title title-center header-item{
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-size: 18px;
+    line-height: 50px;
+    color: white;
+}
 
-.bar-stable {
+.bar-positive {
     background-color: #d71921 !important;
-    margin: 0;
-    padding: 0;
 }
 
 .foodie {
@@ -59,4 +63,19 @@
     color: white;
     font-size: 22px;
     text-align: center;
+}
+
+.box.blue  {
+    height: 600px;
+    background-color: #51BBFE;
+}
+
+.box.yellow  {
+    height: 600px;
+    background-color: #F7FE72;
+}
+
+.box.pink  {
+    height: 600px;
+    background-color: #EE4266;
 }
