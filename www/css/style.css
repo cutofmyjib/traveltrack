@@ -8,16 +8,12 @@
 .title h1 {
     text-align: center;
 }
-<<<<<<< HEAD
 body {
     margin: 0;
 }
 .row {
     padding: 0;
 }
-=======
-
->>>>>>> edaf48d766a92dfd895230b74f3ec7ebd7345eed
 h1 {
     margin: 0;
 }
@@ -88,7 +84,7 @@ h1 {
     height: 270px;
     overflow: hidden;
     width: 100%;
-    
+
 
     }
 .foodies .bottombar li {
@@ -182,7 +178,7 @@ h1 {
 
 .wellness h1 {
     text-align: center;
-    
+
     color: white;
     margin-top: 100px;
 }
@@ -245,7 +241,7 @@ h1 {
 .box-shadow-menu {
   position: relative;
   padding-left: 1.25em;
-    
+
 }
 .box-shadow-menu:before {
   content: "";
@@ -255,7 +251,7 @@ h1 {
   width: 1em;
   height: 0.15em;
   background: black;
-  box-shadow: 
+  box-shadow:
     0 0.25em 0 0 black,
     0 0.5em 0 0 black;
 }
