@@ -1,0 +1,7 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/Merlup/Documents/sites/traveltrack/www/lib/ionic/js/ionic.min.js",
+        "/Users/Merlup/Documents/sites/traveltrack/platforms/ios/www/lib/ionic/js/ionic.min.js",
+        "/Users/Merlup/Documents/sites/traveltrack/www/lib/ionic/js/ionic.js"
+    ]
+}

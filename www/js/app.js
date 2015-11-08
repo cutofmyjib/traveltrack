@@ -45,7 +45,31 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         templateUrl: 'templates/fun.html'
       }
     }
-  });
+  })
+  .state('app.foodie', {
+    url: '/foodie',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/foodie.html'
+      }
+    }
+  })
+  .state('app.family', {
+    url: '/family',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/family.html'
+      }
+    }
+  })
+  .state('app.wellness', {
+    url: '/wellness',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/wellness.html'
+      }
+    }
+  })
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');

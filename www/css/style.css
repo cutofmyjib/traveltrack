@@ -4,6 +4,12 @@
     text-align: center;
     background-color:#d71921;
 }
+body {
+    margin: 0;
+}
+.row {
+    padding: 0;
+}
 h1 {
     margin: 0;
 }
@@ -23,8 +29,13 @@ h1 {
     background-color: red;
 }
 .header {
+    text-align: center;
     background-color: #bc0109;
     height: 80px;
+}
+
+.header li {
+    display: inline-block;
 }
 
 .headerlogo {
@@ -48,16 +59,31 @@ h1 {
     flex-direction: column;
     flex-flow: center;
 }
+
+.buttoncontainer {
+    display: block;
+    text-align: center;
+    height: 20px;
+
+}
+
+.bar .title {
+    margin: 0;
+}
+
+.bottombar .followerscount {
+    padding-left: 20px;
+    text-align: left;
+}
 .foodies {
-    background: url(../img/foodies.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-       height: 50%;
-        width: 50%;
-        overflow: hidden;
+   background-image: url(../img/foodies.jpg);
+    height: 270px;
+    overflow: hidden;
+    width: 100%;
+    
 
     }
-.foodies li {
+.foodies .bottombar li {
     display: inline-block;
 }
 
@@ -65,39 +91,37 @@ h1 {
     text-align: center;
     color: white;
     margin-top: 100px;
-}
-.buttoncontainer {
-    display: block;
-    text-align: center;
-
+    font-size: 20px;
 }
 .foodies button {
     float: center;
     margin-top: 0px;
+    height: auto;
 }
 
 .foodies .bottombar {
-    margin-top: 150px;
+    margin-top: 50px;
     color: white;
 }
-
-.bottombar .followerscount {
-    padding-left: 20px;
-    text-align: left;
-}
-
 .foodies .bottombar .followersavatar {
     float: right;
 }
 
-.fun {
-    background: url(../img/fun.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
+.foodies .bottombar .followersavatar li {
+    display: block;
+}
 
-        width: 50%;
-        height: 50%;
+.foodies .bottombar .followersavatar img {
+    height: auto;
+    width: 5%;
+    border-radius: 50%;
+}
+
+.fun {
+   background-image: url(../img/fun.jpg);
+        height: 270px;
         overflow: hidden;
+    width: 100%;
     }
 .fun li {
     display: inline-block;
@@ -107,27 +131,150 @@ h1 {
     text-align: center;
     color: white;
     margin-top: 100px;
+    font-size: 20px;
 }
-.buttoncontainer {
-    display: block;
-    text-align: center;
 
-}
 .fun button {
     float: center;
     margin-top: 0px;
 }
 
 .fun .bottombar {
-    margin-top: 150px;
+    margin-top: 50px;
     color: white;
-}
-
-.bottombar .followerscount {
-    padding-left: 20px;
-    text-align: left;
 }
 
 .fun .bottombar .followersavatar {
     float: right;
 }
+
+.fun .bottombar .followersavatar img {
+     height: auto;
+    width: 5%;
+    border-radius: 50%;
+}
+.wellness {
+   background-image: url(../img/wellness.jpg);
+       width: 100%;
+        height: 270px;
+        overflow: hidden;
+    float: right;
+    }
+.wellness li {
+    display: inline-block;
+}
+
+.wellness h1 {
+    text-align: center;
+    
+    color: white;
+    margin-top: 100px;
+}
+
+.wellness button {
+    float: center;
+    margin-top: 0px;
+     font-size: 20px;
+}
+
+.wellness .bottombar {
+    margin-top: 50px;
+    color: white;
+}
+
+.wellness .bottombar .followersavatar {
+    float: right;
+}
+
+.wellness .bottombar .followersavatar img {
+     height: auto;
+    width: 5%;
+    border-radius: 50%;
+}
+.family {
+   background-image: url(../img/family.jpg);
+       width: 100%;
+        height: 270px;
+        overflow: hidden;
+    float: right;
+    }
+.family li {
+    display: inline-block;
+}
+
+.family h1 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+     font-size: 20px;
+}
+.famliy button {
+    float: center;
+    margin-top: 0px;
+}
+
+.famliy .bottombar {
+    margin-top: 50px;
+    color: white;
+}
+.family .bottombar .followersavatar {
+    float: right;
+}
+
+.family .bottombar .followersavatar img {
+    height: auto;
+    width: 5%;
+    border-radius: 50%;
+}
+.box-shadow-menu {
+  position: relative;
+  padding-left: 1.25em;
+    
+}
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  margin-top: 10px;
+  width: 1em;
+  height: 0.15em;
+  background: black;
+  box-shadow: 
+    0 0.25em 0 0 black,
+    0 0.5em 0 0 black;
+}
+
+.useravatar {
+}
+
+.useravatar img {
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.regiondesc {
+    text-align: center;
+    height: 180px;
+    width: 70%;
+    padding: 10px;
+    background-color: white;
+}
+
+.regiondesc h1 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.regiondesc p {
+    font-size: 10px;
+}
+.regionimg {
+    height: 180px;
+    width: 70%;
+    background-color: white;
+}
+
+.weekcal {
+    background-color: black;
+

@@ -12,3 +12,7 @@ angular.module('starter.controllers', [])
   // Form data for the login modal
   $scope.loginData = {};
 });
+
+document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
+  this.classList.toggle( "active" );
+});
