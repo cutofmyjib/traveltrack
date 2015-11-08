@@ -70,6 +70,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+  .state('app.continents', {
+    url: '/continents',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/continents.html'
+      }
+    }
+  });
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');
