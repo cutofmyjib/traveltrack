@@ -12,8 +12,14 @@ body {
     margin: 0;
 }
 .row {
+    margin-left: 0;
     padding: 0;
 }
+
+.scroll .row {
+    margin: 0;
+}
+
 h1 {
     margin: 0;
 }
@@ -33,6 +39,12 @@ h1 {
     background-color: red;
 }
 .header {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #bc0109;
+    height: 100px;
+}
+.header2 {
     text-align: center;
     background-color: #bc0109;
     height: 80px;
@@ -59,6 +71,7 @@ h1 {
     background-color: red;
 }
 .personas {
+    margin-top: 140px;
     display: flex;
     flex-direction: column;
     flex-flow: center;
@@ -80,12 +93,10 @@ h1 {
     text-align: left;
 }
 .foodies {
-   background-image: url(../img/foodies.jpg);
+   background-image: url(../img/foodies.png);
     height: 270px;
     overflow: hidden;
-    width: 100%;
-
-
+    width: 100%
     }
 .foodies .bottombar li {
     display: inline-block;
@@ -95,16 +106,12 @@ h1 {
     text-align: center;
     color: white;
     margin-top: 100px;
-<<<<<<< HEAD
-    font-size: 20px;
-=======
+    font-size: 15px;
 }
 
 .buttoncontainer {
     display: block;
     text-align: center;
-
->>>>>>> edaf48d766a92dfd895230b74f3ec7ebd7345eed
 }
 .foodies button {
     margin-top: 0px;
