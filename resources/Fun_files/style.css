@@ -1,0 +1,135 @@
+.title title-center header-item{
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-size: 18px;
+    line-height: 50px;
+    color: white;
+}
+
+.bar-positive {
+    background-color: #d71921 !important;
+}
+
+.foodie {
+    background-color: #F9C80E;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.fun {
+    background-color: #FE7F2D;
+    text-align: center;
+    height: 150px;
+}
+
+.family {
+    background-color: #662E9B;
+    text-align: center;
+    height: 150px;
+}
+
+.wellness {
+    background-color: #43BCCD;
+    text-align: center;
+    height: 150px;
+}
+
+.persona-container {
+    text-align: center;
+    height: 50%;
+}
+.persona-container h1 a {
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    line-height: 100px;
+}
+
+.bottom-bar {
+    height: 50%;
+}
+
+.followers-count {
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.followers-list {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.box.blue  {
+    height: 600px;
+    background-color: #044389;
+}
+
+.exp-image {
+    height: 35%;
+    background: url("../img/fun1.png");
+    background-size: contain;
+}
+
+.exp-container {
+    height: 65%;
+    background: -webkit-linear-gradient(
+        top,
+        hsla(240,24%,94%,0) -3%,
+        hsla(240,24%,94%, 1) 7%);
+    color: gray;
+}
+
+.exp-details {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*margin-top: 20px;*/
+    /*background-color: black;*/
+}
+
+.detail-icons{
+    width: 10%;
+    display: inline-block;
+    text-align: center;
+    line-height: 230%;
+}
+
+.detail-icons i {
+    font-size: 50px;
+    padding: 0 12px 0 12px;
+    display: block;
+    margin-top: 25px;
+}
+
+.detail-desc {
+    width: 80%;
+    /*background-color: yellow;*/
+    margin-top: 35px;
+    display: inline-block;
+    padding: 0 12px 0 22px;
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-size: 14px;
+}
+
+.detail-desc h1 {
+    color: gray;
+    line-height: 50%;
+    font-size: 22px;
+}
+
+.box.yellow  {
+    height: 600px;
+    background-color: #F4E04D;
+}
+
+.box.pink  {
+    height: 600px;
+    background-color: #EE4266;
+}
