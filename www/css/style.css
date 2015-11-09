@@ -1,138 +1,146 @@
-/* Empty. Add your own CSS if you like */
-.bar-stable {
+.title title-center header-item{
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-size: 18px;
+    line-height: 50px;
+    color: white;
+}
+
+.bar-positive {
     background-color: #d71921 !important;
-    margin: 0;
-    padding: 0;
 }
 
-.title h1 {
-    text-align: center;
-}
-
-h1 {
-    margin: 0;
-}
- .pane {
-        background-image: url(../img/backgroundimagered.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: 100% 100%;
-        width: 100%;
-        height: auto;
-    }
-.loginform {
-    color: aqua;
-    padding-top: 80px;
-}
-.loginbutton {
-    background-color: red;
-}
-.header {
-    background-color: #bc0109;
-    height: 80px;
-}
-
-.headerlogo {
-    background-color: white;
-    width: 30%;
-    height: 100%;
-    text-align: center;
-}
-
-.headerlogo img {
-    margin-top: 15px;
-    height: 50%;
-    width: 50%;
-}
-
-.logoquestion {
-    background-color: red;
-}
-.personas {
+.foodie {
+    background-color: #F9C80E;
+    height: 150px;
     display: flex;
     flex-direction: column;
-    flex-flow: center;
-}
-.foodies {
-    background: url(../img/foodies.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-       height: 50%;
-        width: 50%;
-        overflow: hidden;
-
-    }
-.foodies li {
-    display: inline-block;
-}
-
-.foodies h1 {
-    text-align: center;
-    color: white;
-    margin-top: 100px;
-}
-
-.buttoncontainer {
-    display: block;
-    text-align: center;
-
-}
-.foodies button {
-    margin-top: 0px;
-}
-
-.foodies .bottombar {
-    margin-top: 150px;
-    color: white;
-}
-
-.bottombar .followerscount {
-    padding-left: 20px;
-    text-align: left;
-}
-
-.foodies .bottombar .followersavatar {
-    float: right;
+    align-content: center;
 }
 
 .fun {
-    background: url(../img/fun.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
+    background-color: #FE7F2D;
+    text-align: center;
+    height: 150px;
+}
 
-        width: 50%;
-        height: 50%;
-        overflow: hidden;
-    }
-.fun li {
+.family {
+    background-color: #662E9B;
+    text-align: center;
+    height: 150px;
+}
+
+.wellness {
+    background-color: #43BCCD;
+    text-align: center;
+    height: 150px;
+}
+
+.persona-container {
+    text-align: center;
+    height: 50%;
+}
+.persona-container h1 a {
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    line-height: 100px;
+}
+
+.bottom-bar {
+    height: 50%;
+}
+
+.followers-count {
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.followers-list {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.box.blue  {
+    height: 600px;
+    background-color: #044389;
+}
+
+.exp-image-blue {
+    height: 35%;
+    background: url("../img/fun1.png");
+    background-size: contain;
+}
+
+.exp-container {
+    height: 65%;
+    background: -webkit-linear-gradient(
+        top,
+        hsla(240,24%,94%,0) -3%,
+        hsla(240,24%,94%, 1) 7%);
+    color: gray;
+}
+
+.exp-details {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*margin-top: 20px;*/
+    /*background-color: black;*/
+}
+
+.detail-icons{
+    width: 10%;
     display: inline-block;
+    text-align: center;
+    line-height: 230%;
 }
 
-.fun h1 {
-    text-align: center;
-    color: white;
-    margin-top: 100px;
-}
-.buttoncontainer {
+.detail-icons i {
+    font-size: 50px;
+    padding: 0 12px 0 12px;
     display: block;
-    text-align: center;
-
-}
-.fun button {
-    float: center;
-    margin-top: 0px;
+    margin-top: 25px;
 }
 
-.fun .bottombar {
-    margin-top: 150px;
-    color: white;
+.detail-desc {
+    width: 80%;
+    margin-top: 35px;
+    display: inline-block;
+    padding: 0 0 0 22px;
+    font-family: ‘Metrophobic’, Arial, serif;
+    font-size: 14px;
 }
 
-.bottombar .followerscount {
-    padding-left: 20px;
-    text-align: left;
+.detail-desc h1 {
+    color: gray;
+    line-height: 50%;
+    font-size: 22px;
 }
 
-.fun .bottombar .followersavatar {
-    float: right;
+.box.purple  {
+    height: 600px;
+    background-color: #540D6E;
+}
+
+.exp-image-purple {
+    height: 35%;
+    background: url("../img/fun2.png");
+    background-size: contain;
+}
+
+.box.pink  {
+    height: 600px;
+    background-color: #89023E;
+}
+
+.exp-image-pink {
+    height: 35%;
+    background: url("../img/fun3.png");
+    background-size: contain;
 }
